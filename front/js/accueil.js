@@ -21,9 +21,24 @@ loginButton.addEventListener("click", (e) => {
         window.open("index.html");
     }
     else 
-    if (username === "sibtyhel@gmail.com" && password === "user1") {
+    if (username === "user@gmail.com" && password === "user123") {
       // alert("You have successfully logged in.");
       window.open("index.html");
+  }
+  else 
+    if (username === "user144@gmail.com" && password === "azerty123") {
+      // alert("You have successfully logged in.");
+      window.open("index.html");
+  }
+  else 
+    if (username === "user" && password === "user") {
+      // alert("You have successfully logged in.");
+      window.open("index.html");
+  }
+  else 
+    if (username === "admin" && password === "admin") {
+      // alert("You have successfully logged in.");
+      window.open("Admin.html");
   }
     else {
       alert("Vérifier votre mot de passe ou votre mail.");

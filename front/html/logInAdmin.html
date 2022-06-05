@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Give</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Plateforme  de e-commerce">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/accueil.css" rel="stylesheet" />
+    <link href="../css/logInAdmin.css" rel="stylesheet" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <div class="limitedWidthBlockContainer informations">
+        <div class="limitedWidthBlock">
+          
+        </div>
+      </div>
+      <div class="limitedWidthBlockContainerAdmmincnct menu">
+        <div class="limitedWidthBlock">
+        
+            <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
+          </a>
+         
+        </div>
+      </div>
+      
+      
+    </header>
+<main>
+    <li> <button class="admincnt" onclick="document.getElementById('id01').style.display='block'">Login</button>
+        <div id="id01" class="modal">
+
+          <form id="login-form" class="modal-content animate"  method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>E-mail</b></label>
+              <input class="mail1" type="text" placeholder="Entrer votre mail" name="uname" required>
+        
+              <label for="psw"><b>Mot de passe</b></label>
+              <input type="password" placeholder="Entrer votre mot de passe" name="psw" required>
+                
+              <button type="submit" id="login-form-submit">Connecter</button>
+              <p id="login-error-msg"></p>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Enregitrer mes données
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+              <span class="psw"><a href="#">Mot de passe oublier?</a></span>
+            </div>
+          </form>
+        </div>    
+      </li>
+
+
+</main>
+<footer>
+
+</footer>
+<script src="../js/accueil.js"></script>
+      </body>
+    </html>

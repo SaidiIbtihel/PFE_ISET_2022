@@ -346,4 +346,18 @@ footer .footerMain {
   .form-containerDon .btn:hover, .open-button:hover {
 	opacity: 1;
   }
-  
+  #logout-form-submit{
+    background-color: rgb(202, 74, 153);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 9%;
+	font-size: 17px;
+  }
+
+  #logout-form-submit:hover {
+    opacity: 0.8;
+    color: #000;
+  }
