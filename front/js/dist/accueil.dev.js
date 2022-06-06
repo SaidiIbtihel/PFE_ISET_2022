@@ -31,7 +31,7 @@ loginButton.addEventListener("click", function (e) {
     window.open("index.html");
   } else if (username === "admin" && password === "admin") {
     // alert("You have successfully logged in.");
-    window.open("Admin.html");
+    window.open("admin.html");
   } else {
     alert("Vérifier votre mot de passe ou votre mail.");
   }

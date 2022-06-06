@@ -37,7 +37,7 @@ const products = [
   },
   {
     "colors": ["Gris", "Bleu", "Marron", "Noir"],
-    "_id": "uydesiuchc6cn427cc4",
+    "_id": "5",
     "name": "Monteau",
     "price": 103 ,
     "imageUrl": "monteauG1.jpg",
@@ -46,7 +46,7 @@ const products = [
   },
   {
     "colors": ["Noir", "Rose", "Bleu", "Blanc"],
-    "_id": "sxhceusnjx93kcx3cc4xss2ee",
+    "_id": "6",
     "name": "Pantalon",
     "price": 57 ,
     "imageUrl": "pantalonF1.jpg",
@@ -55,7 +55,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Blanc", "Vert"],
-    "_id": "slhchns3xhus337654xkjcx",
+    "_id": "7",
     "name": "Hudie",
     "price":53 ,
     "imageUrl": "hudieFi1.jpg",
@@ -64,7 +64,7 @@ const products = [
   },
   {
     "colors": ["Bleu", "Caramel", "Noir"],
-    "_id": "ighfchjdcbcu4suhc5c4soj",
+    "_id": "8",
     "name": "T-shirt",
     "price": 32,
     "imageUrl": "TchirtH1.jpg",
@@ -73,7 +73,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Blanc"],
-    "_id": "kghkjnxie4jhx34xjx",
+    "_id": "9",
     "name": "Montre intelligente",
     "price": 250 ,
     "imageUrl": "montreF1.jpg",
@@ -82,7 +82,7 @@ const products = [
   },
   {
     "colors": ["Noir"],
-    "_id": "moiuytr5okijh33oijc7",
+    "_id": "10",
     "name": "Montre",
     "price": 78,
     "imageUrl": "montreH1.jpg",
@@ -91,7 +91,7 @@ const products = [
   },
   {
     "colors": ["Bleu", "Blanc"],
-    "_id": "poiuyt3r3cfdcr12",
+    "_id": "11",
     "name": "Boucle d'oreille",
     "price": 8 ,
     "imageUrl": "boucles.jpg",
@@ -100,7 +100,7 @@ const products = [
   },
   {
     "colors": ["Doré"],
-    "_id": "fghjdftdc45jicri5fk6",
+    "_id": "12",
     "name": "Lunettes",
     "price":280 ,
     "imageUrl": "lunetF1.jpg",
@@ -109,7 +109,7 @@ const products = [
   },
   {
     "colors": ["Gris", "Noir", "Marron", "Blanc"],
-    "_id": "3444c39282bb3of",
+    "_id": "13",
     "name": "Botte ",
     "price": 54 ,
     "imageUrl": "ChH1.jpg",
@@ -118,7 +118,7 @@ const products = [
   },
   {
     "colors": ["Noir", "Nude", "Rose", "Bleu"],
-    "_id": "jcdj43zdj888d4d22",
+    "_id": "14",
     "name": "Talon",
     "price": 75 ,
     "imageUrl": "CHF1.jpg",
@@ -127,7 +127,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Blanc", "Rouge", "Vert"],
-    "_id": "eudcjec8jxsh0cjcj3",
+    "_id": "15",
     "name": "Chausseure",
     "price":45 ,
     "imageUrl": "ChFi1.jpg",
@@ -136,7 +136,7 @@ const products = [
   },
   {
     "colors": ["Noir", "Marron", "Bleu"],
-    "_id": "dhchdc44chcij55chdi",
+    "_id": "16",
     "name": "Espadrille",
     "price": 63 ,
     "imageUrl": "ChG1.jpg",
@@ -145,7 +145,7 @@ const products = [
   },
    {
     "colors": ["Blanc"],
-    "_id": "ogsdvx;oe55jsuxy97uheih",
+    "_id": "17",
     "name": "Machine à laver",
     "price": 750 ,
     "imageUrl": "malv.jpg",
@@ -154,7 +154,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Blanc", "Noir"],
-    "_id": "kxjdin3kxjxu9hs22iedx",
+    "_id": "18",
     "name": "Ordinateur portable",
     "price": 1839,
     "imageUrl": "pc.jpg",
@@ -163,7 +163,7 @@ const products = [
   },
   {
     "colors": ["Noir"],
-    "_id": "kufhcnhcn45nuec9zhjx",
+    "_id": "19",
     "name": "TV",
     "price": 847,
     "imageUrl": "tv.jpg",
@@ -172,7 +172,7 @@ const products = [
   },
   {
     "colors": ["Gris", "Noir"],
-    "_id": "fjerchjklc44kjxbcd9ckj",
+    "_id": "20",
     "name": "Haut parleur",
     "price": 56 ,
     "imageUrl": "hp.jpg",
@@ -181,7 +181,7 @@ const products = [
   },
    {
     "colors": ["Blanc", "Rose", "Noir"],
-    "_id": "likfd3E4wjixwj4xndx",
+    "_id": "21",
     "name": "Egg chair",
     "price": 250,
     "imageUrl": "egg chair.jpg",
@@ -190,7 +190,7 @@ const products = [
   },
   {
     "colors": ["Jaune et Gris", "Rose et move"],
-    "_id": "mc,nc98oenuf4cslur43ekojk55ccx",
+    "_id": "22",
     "name": "Salon",
     "price": 1250,
     "imageUrl": "salon.jpg",
@@ -199,7 +199,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Blanc"],
-    "_id": "inoeij3jxiox43bkjhxiub",
+    "_id": "23",
     "name": "Chambre enfants",
     "price": 1137 ,
     "imageUrl": "chambreenf.jpg",
@@ -208,7 +208,7 @@ const products = [
   },
   {
     "colors": ["Blanc", "Gris"],
-    "_id": "pkjc73rcub65rcuic4odxhcxfk,",
+    "_id": "24,",
     "name": "Chambre parent",
     "price": 1754 ,
     "imageUrl": "chambrepar.jpg",
@@ -217,7 +217,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Marron", "Jaune", "Blanc"],
-    "_id": "107fb5b75607497b96722bda5b504926",
+    "_id": "25",
     "name": "Espadrille Femme",
     "price": 77,
     "imageUrl": "EF1.jpg",
@@ -226,7 +226,7 @@ const products = [
   },
   {
     "colors": ["Argent"],
-    "_id": "415b7cacb65d43b2b5c1ff70f3393ad1",
+    "_id": "26",
     "name": "Bague en argent",
     "price": 25,
     "imageUrl": "B1.jpg",
@@ -235,7 +235,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Marron", "Jaune", "Blanc"],
-    "_id": "055743915a544fde83cfdfc904935ee7",
+    "_id": "27",
     "name": "Robe fille",
     "price": 39,
     "imageUrl": "R1.jpg",
@@ -244,7 +244,7 @@ const products = [
   },
   {
     "colors": ["Rose", "Marron", "Jaune", "Blanc"],
-    "_id": "a557292fe5814ea2b15c6ef4bd73ed83",
+    "_id": "28",
     "name": "Rouge à levre  ",
     "price": 19,
     "imageUrl": "rouge1.jpg",
@@ -253,7 +253,7 @@ const products = [
   },
   {
     "colors": [ "Noir", "Blanc"],
-    "_id": "8906dfda133f4c20a9d0e34f18adcf06",
+    "_id": "29",
     "name": "Climatiseur",
     "price": 3999,
     "imageUrl": "clim1.jpg",
@@ -263,7 +263,7 @@ const products = [
   
   {
     "colors": ["Blanc", "Marron", "Rouge", "Blanc"],
-    "_id": "77711f0e466b4ddf953f677d30b0efc9",
+    "_id": "30",
     "name": "Monteau",
     "price": 120,
     "imageUrl": "MH1.jpg",
@@ -272,7 +272,7 @@ const products = [
   },
   {
     "colors": ["Blanc", "Noir", "Rouge", "Mauve"],
-    "_id": "77711f0e466b4ddf953f677d30b0efc10",
+    "_id": "31",
     "name": "Lunettes",
     "price": 99,
     "imageUrl": "lun.jpg",
@@ -281,7 +281,7 @@ const products = [
   },
   {
     "colors": ["Noir", "Blanc"],
-    "_id": "77711f0e466b4ddf953f677d30b0efd1",
+    "_id": "32",
     "name": "Ordinateur portable",
     "price": 2359,
     "imageUrl": "pc1.jpg",
@@ -289,7 +289,7 @@ const products = [
     "altTxt": "pc"
   },{
     "colors": ["Doré","Argent"],
-    "_id": "77711f0e466b4ddf953f677d30b0evf8",
+    "_id": "33",
     "name": "Montre",
     "price": 383,
     "imageUrl": "MF1.jpg",
@@ -297,7 +297,7 @@ const products = [
     "altTxt": "montre"
   },{
     "colors": ["Blanc", "Marron", "Rouge", "Vert","Bleu"],
-    "_id": "77711f0e466b4ddf953f677d30b1zfc8",
+    "_id": "34",
     "name": "Ensemble",
     "price": 170,
     "imageUrl": "MF.jpg",
@@ -305,7 +305,7 @@ const products = [
     "altTxt": "mont"
   },{
     "colors": ["Noir","Bleu","Marron"],
-    "_id": "77711f0e466b4ddf953f693d30b0efc8",
+    "_id": "35",
     "name": "Pantalon",
     "price": 3999,
     "imageUrl": "ME.jpg",
@@ -313,7 +313,7 @@ const products = [
     "altTxt": "pant"
   },{
     "colors": ["Blanc", "Marron", "Rouge"],
-    "_id": "77711f0e466b4ddf955v677d30b0efc8",
+    "_id": "36",
     "name": "Mule",
     "price": 3999,
     "imageUrl": "ballF.jpg",

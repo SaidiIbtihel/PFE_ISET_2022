@@ -488,3 +488,8 @@ function envoiPaquet() {
     console.log("sur page cart");
   }
 })();
+const logoutButton=document.getElementById("logout-form-submit");
+logoutButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.open("accueil.html")
+});

@@ -11,6 +11,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    height: 30%;
   }
   
   /* Set a style for all buttons */
@@ -23,6 +24,7 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    height: 30%;
   }
   
   button:hover {
@@ -280,4 +282,7 @@ input[type=text], input[type=password] {
 }
 .mySlides-fade{
   height: 100%;
+}
+.w3-bar{
+  margin-left: 39%;
 }
