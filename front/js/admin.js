@@ -1,3 +1,4 @@
+
 function openTab(evt, tabName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("tab");
@@ -11,15 +12,6 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " w3-pink";
   }
-
-
-
-
-
-
-
-
-
 
 
 
