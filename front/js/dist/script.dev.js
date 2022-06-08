@@ -28,6 +28,7 @@ function lesKanaps(index) {
   var zoneArticle4 = document.querySelector("#items4");
   var zoneArticle5 = document.querySelector("#items5");
   var zoneArticle6 = document.querySelector("#items6");
+  var zoneArticle7 = document.querySelector("#items7");
   var beaute = document.getElementById("beaute");
   var vetement = document.getElementById("vetement"); // boucle pour chaque indice(nommé 'article') dans index
 
@@ -51,6 +52,8 @@ function lesKanaps(index) {
         zoneArticle5.innerHTML += "<a href=\"./product.html?_id=".concat(article._id, "\">\n    <article>\n      <img src=\"").concat(article.imageUrl, "\" alt=\"").concat(article.altTxt, "\">\n      <h3 class=\"productName\">").concat(article.name, "</h3>\n      <p class=\"productDescription\">").concat(article.description, "</p>\n    </article>\n  </a>");
       } else if (article._id >= 21 && article._id <= 24) {
         zoneArticle6.innerHTML += "<a href=\"./product.html?_id=".concat(article._id, "\">\n    <article>\n      <img src=\"").concat(article.imageUrl, "\" alt=\"").concat(article.altTxt, "\">\n      <h3 class=\"productName\">").concat(article.name, "</h3>\n      <p class=\"productDescription\">").concat(article.description, "</p>\n    </article>\n  </a>");
+      } else if (article._id >= 25 && article._id <= 36) {
+        zoneArticle7.innerHTML += "<a href=\"./product.html?_id=".concat(article._id, "\">\n    <article>\n      <img src=\"").concat(article.imageUrl, "\" alt=\"").concat(article.altTxt, "\">\n      <h3 class=\"productName\">").concat(article.name, "</h3>\n      <p class=\"productDescription\">").concat(article.description, "</p>\n    </article>\n  </a>");
       }
       /* création et ajout des zones d'articles, insertion de l'adresse produit via chemin produit + paramètres(son id);
           la page index est http://127.0.0.1:5500/front/html/index.html donc la page du produit sera http://127.0.0.1:5500/front/html/product.html 

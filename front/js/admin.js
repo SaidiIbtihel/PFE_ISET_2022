@@ -23,7 +23,7 @@ function openTab(evt, tabName) {
 
 
 
-  const formBtn1 = document.querySelector("#btn-1")
+const formBtn1 = document.querySelector("#btn-1")
 const formBtnPrev2 = document.querySelector("#btn-2-prev")
 const formBtnNext2 = document.querySelector("#btn-2-next")
 const formBtn3 = document.querySelector("#btn-3")
@@ -75,11 +75,6 @@ formBtn1.addEventListener("click", function(e) {
       nextForm.classList.remove("form-active-animate")
     }, 1000)
   }
-
-
-
-
-
   const logoutButton=document.getElementById("logout-form-submit");
   logoutButton.addEventListener("click", (e) => {
     e.preventDefault();

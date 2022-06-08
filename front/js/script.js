@@ -27,6 +27,7 @@ function lesKanaps(index) {
   let zoneArticle4 = document.querySelector("#items4");
   let zoneArticle5 = document.querySelector("#items5");
   let zoneArticle6 = document.querySelector("#items6");
+  let zoneArticle7 = document.querySelector("#items7");
   let beaute=document.getElementById("beaute");
   let vetement=document.getElementById("vetement");
   
@@ -90,6 +91,17 @@ function lesKanaps(index) {
   if (article._id >= 21 && article._id <= 24)
     {
       zoneArticle6.innerHTML += `<a href="./product.html?_id=${article._id}">
+    <article>
+      <img src="${article.imageUrl}" alt="${article.altTxt}">
+      <h3 class="productName">${article.name}</h3>
+      <p class="productDescription">${article.description}</p>
+    </article>
+  </a>`;
+  }
+  else
+  if (article._id >= 25 && article._id <= 36)
+    {
+      zoneArticle7.innerHTML += `<a href="./product.html?_id=${article._id}">
     <article>
       <img src="${article.imageUrl}" alt="${article.altTxt}">
       <h3 class="productName">${article.name}</h3>
