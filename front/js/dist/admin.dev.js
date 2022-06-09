@@ -70,5 +70,5 @@ var gotoNextForm = function gotoNextForm(prev, next, stepPrev, stepNext) {
 var logoutButton = document.getElementById("logout-form-submit");
 logoutButton.addEventListener("click", function (e) {
   e.preventDefault();
-  window.open("accueil.html");
+  window.open("../../index.html");
 });

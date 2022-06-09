@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Give</title>
+    <title>IS Store</title>
 
     <meta charset="utf-8">
     <meta name="description" content="Plateforme  de e-commerce">
@@ -46,18 +46,38 @@
         </div>
       </div>
       
-        <img class="banniere" src="../images/ccc.webp" alt="Baniere">
-        <!-- <div class="text-block">
-         <p>Vous voulez faire  </p>
-         <p>des tri dans vos </p>
-         <p> placards </p>
-         <a href="./Comment.html" class="decouvrir"> Découvrir comment ça marche</a>
-         </div> -->
       
     </header>
 
     <main class="limitedWidthBlockContainer">
       <div class="limitedWidthBlock">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="../images/l1.jpg"  class="dd">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="../images/l2.png" class="dd">
+          </div>
+          
+          
+          <div class="mySlides fade">
+            <img src="../images/l3.png" class="dd" >
+          </div>
+          
+          
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
         <div class="titles">
           <h4 class="p1">Notre site est un site de don et de vente en ligne sur toute la Tunisie, 
             il permet de mettre en relation les clients et les vendeurs dans le but de réaliser 
@@ -76,7 +96,10 @@
             <input type="text" placeholder="Entrer Email" name="email" required>
 
             <label for="price"><b>Montant à donner</b></label>
-            <input type="text" placeholder="Entrer le prix à donner" name="price" required>
+            <input type="text" placeholder="Entrer le montant à donner" name="price" required>
+           
+            <label for="price"><b>Mot de passe</b></label>
+            <input type="text" placeholder="Entrer votre mot de passe" name="psw" required>
 
             <button type="submit" class="btn">Donner</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>

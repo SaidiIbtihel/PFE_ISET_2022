@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>à-propos</title>
+    <title> a propos</title>
 
     <meta charset="utf-8">
-    <meta name="description" content="Plateforme incroyable de e-commerce">
+    <meta name="description" content="Plateforme  de e-commerce">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" />
     <link href="../css/apropos.css" rel="stylesheet" />
+    <link href="../css/accueil.css" rel="stylesheet" />
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -21,26 +23,53 @@
         <div class="limitedWidthBlock">
           <ul>
             <li><img src="../images/icons/phone.svg" alt="logo de téléphone" class="informations__phone">+216 76 000 000</li>
-            <li><img src="../images/icons/mail.svg" alt="logo d'une enveloppe" class="informations__mail">@gmail.com</li>
+            <li><img src="../images/icons/mail.svg" alt="logo d'une enveloppe" class="informations__mail">give11@gmail.com</li>
             <li><img src="../images/icons/adress.svg" alt="logo d'un point de géolocalisation" class="informations__address">Gafsa Tunisie</li>
           </ul>
         </div>
       </div>
       <div class="limitedWidthBlockContainer menu">
         <div class="limitedWidthBlock">
-          <a href="./index.html">
+          
             <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
           </a>
           <nav>
             <ul>
-              <a href="./index.html"><li>Accueil</li></a>
-              <a href="./apropos.html"><li>à propos</li></a>
-              <a href="./equipe.html"><li>Equipe</li></a>
-              <a href="./contact.html"><li>Contactez-nous</li></a>
-              <a href="./evennement.html"><li>Evennement</li></a>
-              <a href="./cart.html"><li>Panier</li></a>
-              <button type="submit" id="logout-form-submit">LogOut</button>
-              <p id="login-error-msg"></p>
+                <a href="../../index.html"><li>Accueil</li></a>
+              <li> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+                <div id="id01" class="modal">
+  
+                  <form id="login-form" class="modal-content animate"  method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
+                    </div>
+                
+                    <div class="container">
+                      <label for="uname"><b>E-mail</b></label>
+                      <input class="mail1" type="text" placeholder="Entrer votre mail" name="uname" required>
+                
+                      <label for="psw"><b>Mot de passe</b></label>
+                      <input type="password" placeholder="Entrer votre mot de passe" name="psw" required>
+                        
+                      <button type="submit" id="login-form-submit">Connecter</button>
+                      <p id="login-error-msg"></p>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Enregitrer mes données
+                      </label>
+                    </div>
+                
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+                      <span class="psw"><a href="#">Mot de passe oublier?</a></span>
+                    </div>
+                  </form>
+                </div>    
+              </li>
+              <a href="./apropos1.html"><li>à propos</li></a>
+              <a href="./contact1.html"><li>Contactez-nous</li></a>
+              
+              <a href="../html/inscrire.html"><li>inscrivez vous</li></a>
             </ul>
           </nav>
         </div>

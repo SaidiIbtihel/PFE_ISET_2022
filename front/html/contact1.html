@@ -35,39 +35,10 @@
           </a>
           <nav>
             <ul>
-                <a href="./accueil.html"><li>Accueil</li></a>
-              <li> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-                <div id="id01" class="modal">
-  
-                  <form id="login-form" class="modal-content animate"  method="post">
-                    <div class="imgcontainer">
-                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                      <img src="../images/img_avatar2.png" alt="Avatar" class="avatar">
-                    </div>
-                
-                    <div class="container">
-                      <label for="uname"><b>E-mail</b></label>
-                      <input class="mail1" type="text" placeholder="Entrer votre mail" name="uname" required>
-                
-                      <label for="psw"><b>Mot de passe</b></label>
-                      <input type="password" placeholder="Entrer votre mot de passe" name="psw" required>
-                        
-                      <button type="submit" id="login-form-submit">Connecter</button>
-                      <p id="login-error-msg"></p>
-                      <label>
-                        <input type="checkbox" checked="checked" name="remember"> Enregitrer mes données
-                      </label>
-                    </div>
-                
-                    <div class="container" style="background-color:#f1f1f1">
-                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
-                      <span class="psw"><a href="#">Mot de passe oublier?</a></span>
-                    </div>
-                  </form>
-                </div>    
-              </li>
-      
-              <a href="./contact.html"><li>Contactez-nous</li></a>
+              <a href="../../index.html"><li>Accueil</li></a>
+              <a href="../html/apropos1.html"><li>à propos</li></a>
+              <a href="../html/contact1.html"><li>Contactez-nous</li></a>
+              <a href="../html/inscrire.html"><li>inscrivez vous</li></a>
             </ul>
           </nav>
         </div>
@@ -83,17 +54,32 @@
             <div class="text-block-contact">
               <h4 class="contacteee">Contacter nous </h4>
             </div>
-            
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" placeholder="votre nom.."/>
+            <section>
+             
+    
+      <div class="direct-contact-container">
 
-            <label for="lname">Adresse mail</label>
-            <input type="text" id="email" name="email" placeholder="Votre adresse mail.."/>
+        <ul class="contact-list">
+          
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Gafsa,Tunisie</span></i></li>
+        
+        <hr>
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:+216 76 000 000" title="Give me a call">+216 76 000 000</a></span></i></li>
+      </hr>
+          <hr>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">is_store@gmail.com</a></span></i></li>
+      </hr>
+        </ul>
 
-            <label >Message</label>
-            <textarea id="messages" name="message" placeholder="Laisser votre message.." ></textarea>
-            <input type="submit" id="msg" value="Envoyer"/>
-        </div>
+        
+
+      </div>
+    
+  </div>
+  
+</section>  
+
+             </div>
     </div>
     </main>
     <footer>

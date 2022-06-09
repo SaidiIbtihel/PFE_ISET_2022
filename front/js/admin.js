@@ -70,5 +70,5 @@ formBtn1.addEventListener("click", function(e) {
   const logoutButton=document.getElementById("logout-form-submit");
   logoutButton.addEventListener("click", (e) => {
     e.preventDefault();
-    window.open("accueil.html")
+    window.open("../../index.html")
   });
